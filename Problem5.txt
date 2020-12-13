@@ -1,0 +1,36 @@
+//Answers to Q5 of HW6
+
+//part 4a
+//output:
+//time efficient
+//The number of BU-IDs whose digits add to a number between 31 and 68 are : 
+44961
+//you iterate through the bigdatafile, call the bool function that takes in string file as input and check for initial U and rest 8 digits followed by a non digit (and then their sum)
+//if it meets all the requirements, then increment count variable
+
+
+//part 4b 
+//output:
+//The number of words that appear in the file that do not begin with h or H :608522
+//time efficient 
+//used KMP algorithm for string matching 
+//KMP algorithm is one of the most efficient algorithms for string matching, preprocesses in O(M) and 
+//matches in O(N) where M and N are length of pattern and searched text. 
+
+
+
+//part 4c 
+//output:
+//  BRpmpRB
+//Really fast version 
+//use 3 nested for loops, first iterate through the length of the string, increment upper and 
+//give lower same value as i. In the second loop(iterates twice), decrement lower
+//third for loop, upper++ and lower-- if str[lower] equals str[upper] (palindrome)
+//final if statement (checking if its a palindrome) to get values of max upper and lower
+//return the palindrome
+
+
+
+
+
+
