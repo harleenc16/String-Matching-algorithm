@@ -215,9 +215,10 @@ void fourC() {
 
 int main(){
 	
-	//fourA(); 
+	fourA(); 
 	fourB();
-	//fourC();
+	//alternate approach for fourB()- build a Trie from the dictionary, and use it to search the input file.
+	fourC();
 	
 	return 0; 
 }
